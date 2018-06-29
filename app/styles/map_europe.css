@@ -1,0 +1,47 @@
+div.tooltipmap {
+	opacity : 0;
+	position: absolute;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	padding: 2px;
+	font: 12px sans-serif;
+	background: LightGray;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+}
+
+div.sunburst {
+	width: 45%;
+	float:left;
+	text-align: center;
+}
+
+fieldset {
+  border-radius: 8px;
+	background: LightGray;
+}
+
+legend {
+  padding: 2px 4px;
+  background: White;
+}
+
+text.legendTitle {
+	font-size: 14px;
+	fill: #5c5b5b;
+}
+
+text.countryName {
+	font: 28px sans-serif;
+	fill: Gray;
+	text-anchor: middle;
+}
+
+g.legendAxis {
+	stroke: gray;
+	fill: none;
+	stroke-width: 1px;
+	font: 10px sans-serif;
+}

@@ -1,0 +1,83 @@
+body{
+    background-color: #708090; /* #708090; /* Slate Gray */
+    }
+
+circle {
+        stroke: white;
+         }
+
+circle[marked='yes'] {
+    fill: #708090;
+    stroke-width: 3;
+    }
+
+circle[marked='no'] {
+    fill: #708090;
+    stroke-width: 1;
+    }
+
+.x_axis line, .y_axis line{
+    stroke: antiquewhite;
+}
+
+.x_axis path, .y_axis path{
+    stroke: antiquewhite;
+}
+
+.x_axis text, .y_axis text, #y_title, #x_title {
+    fill: antiquewhite;
+}
+
+
+button[active="yes"]{
+    opacity: 1;
+}
+
+button[active="no"]{
+    opacity: 0.5;
+}
+
+table {
+border: medium solid #ccc;
+width: 60%;
+margin: auto;
+}
+
+td, th {
+border: thin solid #ccc;
+width: 50%;
+}
+
+td{
+    color: #d3d3d3;
+}
+th{
+    padding: 5px;
+    background-color: #cccccc5c;
+    color: #e7dada;
+}
+
+legend{
+    color: #faebd7
+}
+
+label {
+    color: #faebd7
+}
+div.tooltip{
+    background-color: #cccccc5c;
+    padding: 10;
+    color: #ffa500;
+}
+
+h1 {
+    color: #ffa500;
+    opacity: 1;
+    margin-top: unset;
+    margin-bottom: 0;
+    padding-bottom: unset;
+}
+hr {
+    margin-top: 0;
+    border-top: 3px solid #ffa500;
+    }

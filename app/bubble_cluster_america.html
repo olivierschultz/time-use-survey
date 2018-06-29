@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Use Survey</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+     <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/template.css">
+    <link rel="stylesheet" href="./styles/bubble_cluster_america.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Your content -->
+    <a href="index.html" class="btn btn-default btn-lg network-name">
+    BACK
+    </a>
+
+    <div class="left" id="current_time">4:00am</div>
+
+    <div class="center">
+        <div id = "controls" style="float: left">
+            <input type="image" src="images/reset.png" name="reset" class="button" id = "reset" />
+            <input type="image" src="images/play.png" name="play" class="button" style="display: initial" id = "play" />
+            <input type="image" src="images/pause.png" name="pause" class="button" style="display: none" id = "pause" />
+        </div>
+        <div id="speed"></div>
+    </div>
+
+    <div id="chart" class="col-md-7"></div>
+
+    <div class="col-md-5">
+        <div id="bar-chart" style="float: left"></div>
+        <div id="ranking">
+            <h1>Activites:</h1>
+            <p><span>01: </span><span id="1"></span></p>
+            <p><span>02: </span><span id="2"></span></p>
+            <p><span>03: </span><span id="3"></span></p>
+            <p><span>04: </span><span id="4"></span></p>
+            <p><span>05: </span><span id="5"></span></p>
+            <p><span>06: </span><span id="6"></span></p>
+            <p><span>07: </span><span id="7"></span></p>
+            <p><span>08: </span><span id="8"></span></p>
+            <p><span>09: </span><span id="9"></span></p>
+            <p><span>10: </span><span id="10"></span></p>
+            <p><span>11: </span><span id="11"></span></p>
+        </div>
+    </div>
+
+    <!-- build:js(app/) ../../scripts/main.min.js -->
+    <script src="./scripts/d3-v3/d3-3-5-5.min.js"></script>
+    <script src="./scripts/d3-v3/d3.tip.js"></script>
+    <script src="./scripts/bubble_cluster_america.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

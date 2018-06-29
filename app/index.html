@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Use Survey</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!--
+  <link rel="canonical" href="http://www.example.com/">
+-->
+
+<!-- Your styles -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="styles/animate.css">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <!-- Your content -->
+  <main>
+    <div class="brand">
+      <svg width="200" height="200">
+        <g>
+          <circle id="shadow" style="fill:rgba(0,0,0,0.1)" cx="97" cy="100" r="87" filter="url(#innerShadow)"></circle>
+          <circle id="circle" style="stroke: #514F6D; stroke-width: 12px; fill:#F9F7E4" cx="100" cy="100" r="90"></circle>
+        </g>
+        <g>
+          <line x1="100" y1="100" x2="100" y2="57" stroke-linecap="round" transform="rotate(80 100 100)" style="stroke-width: 10px; stroke: #514F6D;" id="hourhand">
+            <animatetransform attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="43200s"
+            repeatCount="indefinite"/>
+          </line>
+          <line x1="100" y1="100" x2="100" y2="50" stroke-linecap="round" style="stroke-width: 10px; stroke: #514F6D;" id="minutehand">
+            <animatetransform attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="3600s"
+            repeatCount="indefinite"/>
+          </line>
+          <line x1="100" y1="130" x2="100" y2="30" style="stroke-width: 5px; stroke: #FF5F5F;" id="secondhand">
+            <animatetransform attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            dur="60s"
+            repeatCount="indefinite"/>
+          </line>
+        </g>
+        <circle id="center" style="fill:#FCDA4F; stroke: #FCDA4F; stroke-width: 2px;" cx="100" cy="100" r="13">
+        </circle>
+      </svg>
+      <h1 class="fl-module-content">Time use survey</h1>
+    </div>
+
+    <div class="infos">
+      <div id="presentation">
+        <section class="animated fadeIn">
+          <h2 class="fl-module-content">
+          DATA
+          </h2>
+          <div class="row">
+            <div class="col-md-6 equal">
+              <a href="http://www.ec.europa.eu/eurostat/cache/metadata/en/tus_esms.htm"><img id="eurostat" src="./images/eurostat.png" alt="">
+              </a>
+              <p class="fl-module-content">
+                Time use surveys (TUS) measure the amount of time people spend doing various activities, such as paid work, household and family care, personal care, voluntary work, social life, travel, and leisure activities.
+              </p>
+            </div>
+            <div class="col-md-6 equal">
+              <a href="http://www.bls.gov/tus/documents.htm"><img id="bls" src="./images/bls.svg" alt="">
+              </a>
+              <p class="fl-module-content">
+                The American Time Use Survey (ATUS) measures the amount of time people spend doing various activities, such as paid work, childcare, volunteering, and socializing.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="animated fadeIn">
+          <h2 class="fl-module-content">Goal</h2>
+          <p class="fl-module-content">
+            <strong class="subtitle">Visualize </strong> duration of activities throughout the day in Europe and America. <br/>
+            <strong class="subtitle">Compare </strong> people's habits in different countries in Europe and states in America. <br/>
+            <strong class="subtitle">Explore </strong> how do people spend their time doing various activities based on gender, day of the week, time in Europe and America.
+          </p>
+        </section>
+        <section class="animated fadeIn">
+          <h2 class="fl-module-content">Observations</h2>
+          <p class="fl-module-content">
+            <strong class="subtitle">Differences </strong> travel time (transports) between countries in Europe from 2000 to 2010. <br/>
+            <strong class="subtitle">Gap </strong> household time between gender in Europe. <br/>
+            <strong class="subtitle">Happiness </strong> the less you work - the happier you are. <br/>
+          </p>
+        </section>
+        <button id="selectVisu" type="button" class="btn">SELECT A VISUAL</button>
+      </div>
+
+      <div id="visual" class="hidden">
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="bubble_chart_experimental_1.html">
+              <div class="card animated fadeIn">
+                <img src="./images/experiment.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Experimental visualization (EUROPE)</h5>
+                  <p class="card-text">
+                    Evolution between 2000 and 2010 of two pre-selected activities. And correlation with socio-economic data.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="bubble_chart_experimental_2.html">
+              <div class="card animated fadeIn">
+                <img src="./images/experiment.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Experimental visualization (EUROPE)</h5>
+                  <p class="card-text">
+                    Choose a fixed threshold associated with each ACL (using sliders) to split the countries.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <div class="card animated fadeIn">
+              <img src="./images/under_construction.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Animated Bubble Chart (EUROPE)</h5>
+                <p class="card-text">
+                  The bubble chart dynamically shows the activities performed for a person during a day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="map_europe.html">
+              <div class="card animated fadeIn">
+                <img src="./images/map_europe.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Map and Sunburst (EUROPE)</h5>
+                  <p class="card-text">
+                    The map shows the time used for a given activity for each country. <br/>
+                    The sunburst shows the time used for a given activity for a country.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        <div class="col-lg-4">
+          <a href="map_america.html">
+            <div class="card animated fadeIn">
+              <img src="./images/map_america.png" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Map and Graph (AMERICA)</h5>
+                  <p class="card-text">
+                    The map shows the time used for a given activity for all states or a selected state. <br/>
+                    The graph shows the time used by gender (Male, Female, Both) for a given activity for all states or a selected state.
+                  </p>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="bubble_cluster_america.html">
+            <div class="card animated fadeIn">
+              <img src="./images/bubble_cluster.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Animated Bubble Chart (AMERICA)</h5>
+                <p class="card-text">
+                  The bubble chart dynamically shows the activities performed for a person during a day.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button id="backToPresentation" type="button" class="btn">Back</button>
+    </div>
+  </main>
+
+  <!-- build:js(app/) ../../scripts/main.min.js -->
+  <script src="./scripts/jquery/jquery-3.3.1.js"></script>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/clock.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

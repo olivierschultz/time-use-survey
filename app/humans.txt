@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    
+  <Nazha Bouchia> -- <Data Scientist> -- <github.com/NBouchia>
+  <Ariane Manintchap> -- <Data Scientist> -- <github.com/darianemanintchap">
+  <Stephane Rohmer> -- <Data Scientist> -- <github.com/stfrom>
+  <Olivier Schultz> -- <Data / Machine Learning Engineer> -- <github.com/olivierschultz>
+
+# THANKS
+
+  <Anthony Berthelot> -- <Full Stack Engineer> -- <github.com/BerthelotAnthony>
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, Javascript, D3js, nodejs, gulp, babel, TravisCI, BOOTSTRAP, JQUERY, QUEUE

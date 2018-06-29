@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "Time Use Survey",
+  "launch_path": "/index.html",
+  "description": "Visualization | Visualizing European and American Time Use Data.",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Nazha Bouchia",
+    "url": "https://github.com/NBouchia",
+    "name": "Ariane Manintchap",
+    "url": "https://github.com/darianemanintchap",
+    "name": "Stephane Rohmer",
+    "url": "https://github.com/stfrom",
+    "name": "Olivier Schultz",
+    "url": "https://github.com/olivierschultz"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Time Use Survey",
+      "description": "Visualization | Visualizing European and American Time Use Data."
+    }
+  }
+}

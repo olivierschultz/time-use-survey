@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Use Survey</title>
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+  <!--
+  <link rel="canonical" href="http://www.example.com/">
+  -->
+
+  <!-- Your styles -->
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/map_europe.css">
+</head>
+
+<body>
+  <!-- Your content -->
+  <a href="index.html" class="btn btn-default btn-lg network-name">
+    BACK
+  </a>
+
+	<div>
+        <div id="filter" style="width: 10%; float:left;">
+			<form>
+				</br>
+				<fieldset><legend>Sexe:</legend>
+					<label for="chkSexe"><input type="radio" id="chkSexe" name="chkSexe" value="Total" onclick="updateViz(this, 'GENDER')" checked/>Total</label></br>
+					<label for="chkSexeFemales"><input type="radio" id="chkSexeFemales" name="chkSexe" value="Females" onclick="updateViz(this, 'GENDER')" />Females</label></br>
+					<label for="chkSexeMales"><input type="radio" id="chkSexeMales" name="chkSexe" value="Males" onclick="updateViz(this, 'GENDER')" />Males</label></br>
+				</fieldset>
+
+				</br></br>
+				<fieldset><legend>Time:</legend>
+					<label for="chkDaysAll"><input type="radio" id="chkDaysAll" name="chkDays" value="All days of the week" onclick="updateViz(this, 'DAYS')" checked/>All days</label></br>
+					<label for="chkDaysWD"><input type="radio" id="chkDaysWD" name="chkDays" value="Monday to Friday" onclick="updateViz(this, 'DAYS')" />Week Days</label></br>
+					<label for="chkDaysWE"><input type="radio" id="chkDaysWE" name="chkDays" value="Saturday to Sunday" onclick="updateViz(this, 'DAYS')" />Week End</label></br>
+				</fieldset>
+
+				</br></br>
+				<fieldset><legend>Year:</legend>
+					<label for="chkTime2000"><input type="radio" id="chkTime2000" name="chkTime" value="2000" onclick="updateViz(this, 'TIME')" checked/>2000</label></br>
+					<label for="chkTime2010"><input type="radio" id="chkTime2010" name="chkTime" value="2010" onclick="updateViz(this, 'TIME')" />2010</label></br>
+				</fieldset>
+
+				</br></br>
+				<fieldset><legend>ACL:</legend>
+					<label for="chkACL1" style="color:white; background-color: #dd6800;"><input type="radio" id="chkACL1" name="chkACL" value="Personal care" onclick="updateViz(this, 'ACL')"  checked/>Personal care</label></br>
+					<label for="chkACL2" style="color:white; background-color: #8760b2;"><input type="radio" id="chkACL2" name="chkACL" value="Employment, related activities and travel as part of/during main and second job" onclick="updateViz(this, 'ACL')" />Employment</label></br>
+					<label for="chkACL3" style="color:white; background-color: #b90064;"><input type="radio" id="chkACL3" name="chkACL" value="Study" onclick="updateViz(this, 'ACL')" />Study</label></br>
+					<label for="chkACL4" style="color:white; background-color: #009f00;"><input type="radio" id="chkACL4" name="chkACL" value="Household and family care" onclick="updateViz(this, 'ACL')" />Household</label></br>
+					<label for="chkACL5" style="color:white; background-color: #ff7f00;"><input type="radio" id="chkACL5" name="chkACL" value="Leisure, social and associative life" onclick="updateViz(this, 'ACL')" />Leisure</label></br>
+					<label for="chkACL6" style="color:white; background-color: #805c07;"><input type="radio" id="chkACL6" name="chkACL" value="Travel except travel related to jobs" onclick="updateViz(this, 'ACL')" />Travel</label></br>
+				</fieldset>
+			</form>
+        </div>
+        <div id="map" style="width: 45%; float:left;"></div>
+		<div id="sunburst" class="sunburst"></div>
+	</div>
+
+    <!-- build:js(app/) ../../scripts/main.min.js -->
+    <script src="./scripts/d3-v4/d3.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="./scripts/map_europe.js"></script>
+    <script src="./scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

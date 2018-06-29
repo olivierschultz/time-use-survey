@@ -1,0 +1,25 @@
+{
+  "name": "Time Use Survey",
+  "short_name": "TUS",
+  "icons": [{
+        "src": "",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, {
+        "src": "",
+        "sizes": "152x152",
+        "type": "image/png"
+      }, {
+        "src": "",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "",
+        "sizes": "192x192",
+        "type": "image/png"
+      }],
+  "start_url": "/index.html?homescreen=1",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+}
