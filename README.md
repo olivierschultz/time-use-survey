@@ -39,7 +39,7 @@ More information at: [ATUS](https://www.bls.gov/tus/home.htm#tables)
 
 ### Quickstart
 
-[Download](INSERT LINK HERE) the project or clone this repository and build on what is included in the `app` directory.
+[Download](https://github.com/olivierschultz/time_use_survey/releases/tag/v1.0) the project or clone this repository and build on what is included in the `app` directory.
 
 Be sure to look over the [installation docs](docs/install.md) to verify your environment is prepared to run.
 Once you have verified that your system can run TUS, check out the [commands](docs/commands.md) available to get started.

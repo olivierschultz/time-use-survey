@@ -1,6 +1,6 @@
 # Install
 
-**tl;dr**: [Download TUS](INSERT LINK HERE) and run `$ npm install --global gulp && npm install` in that directory to get started.
+**tl;dr**: [Download TUS](https://github.com/olivierschultz/time_use_survey/releases/tag/v1.0) and run `$ npm install --global gulp && npm install` in that directory to get started.
 
 ---
 
@@ -13,7 +13,7 @@ To take advantage of time-use-survey you need to:
 
 ## Getting the code
 
-[Download](INSERT LINK HERE) and extract TUS to where you want to work.
+[Download](https://github.com/olivierschultz/time_use_survey/releases/tag/v1.0) and extract TUS to where you want to work.
 
 ## Prerequisites
 
