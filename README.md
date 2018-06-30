@@ -1,12 +1,8 @@
-# IGR 204 Visualization
+# European and American Time Use: How do people spend their time doing various activites such as paid work, household and family care...
+  
+Nazha Bouchia, Ariane Manintchap, Stephane Rohmer, Olivier Schultz
 
-  Nazha Bouchia, Ariane Manintchap, Stephane Rohmer, Olivier Schultz
-
-  Spring 2018
-
-## European and American Time Use: How do people spend their time doing various activites such as paid work, household and family care...
-
-### Abstract
+### Summary
 
 Access to data is increasing exponentially, yet our ability to analyze and make sense of them is limited. The goal of information visualization is to provide users with the tools necessary to visually explore, understand, and communicate complex data. 
 
@@ -18,7 +14,7 @@ In this project, we developed a high-quality, interactive visualization that sho
 
 We were interested in exploring how an average European and American spends their time, how much do they spend on each activity and which activities take up the most time.
 
-### Data
+### TUS & ATUS
 
 In this project, we used two different data sets :
 
@@ -31,7 +27,7 @@ More information at: [TUS](http://ec.europa.eu/eurostat/cache/metadata/en/tus_es
 The American Time Use Survey (ATUS) measures the amount of time people spend doing various activities, such as paid work, childcare, volunteering, and socializing.
 More information at: [ATUS](https://www.bls.gov/tus/home.htm#tables)
 
-### Goals
+### Objectives
 
 *   Visualize duration activities throughout the day in Europe and America.
 *   Compare people's habits in different countries in Europe and America.
