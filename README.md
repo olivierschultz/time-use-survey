@@ -60,9 +60,8 @@ At present, we officially aim to support the last two versions of the following 
 
 *   [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/)
 *   Nathan Jau for dataset and inspiration for our data visualization
-*   bl.ocks for inspirations and source code
+*   bl.ocks for inspirations and source code by Mike Bostock
 *   Anthony Berthelot for his help on front page
-*   D3.js created and maintained by Mike Bostock
 *   Libraries used: d3.js, JQuery, Bootstrap, Queue.js, animated.css
 
 ## License
