@@ -1,4 +1,6 @@
 # European and American Time Use: How do people spend their time doing various activites such as paid work, household and family care...
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey?ref=badge_shield)
+
   
 Nazha Bouchia, Ariane Manintchap, Stephane Rohmer, Olivier Schultz
 
@@ -67,3 +69,6 @@ At present, we officially aim to support the last two versions of the following 
 ## License
 
 Apache 2.0
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey?ref=badge_large)
