@@ -1,6 +1,8 @@
+[![License](https://img.shields.io/:license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 # European and American Time Use: How do people spend their time doing various activites such as paid work, household and family care...
   
-Nazha Bouchia, Ariane Manintchap, Stephane Rohmer, Olivier Schultz
+Nazha Bouchia - Ariane Manintchap - Stephane Rohmer - Olivier Schultz
 
 ### Summary
 
@@ -66,4 +68,7 @@ At present, we officially aim to support the last two versions of the following 
 
 ## License
 
-Apache 2.0
+
+MIT License
+
+Copyright (c) 2018 Nazha Bouchia - Ariane Manintchap - Stephane Rohmer - Olivier Schultz
