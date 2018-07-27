@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/:license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2Folivierschultz%2Ftime-use-survey?ref=badge_small)
 
 # European and American Time Use: How do people spend their time doing various activites such as paid work, household and family care...
   
